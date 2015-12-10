@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BAA6DDF1C197F35009924D4 /* RFQuiltLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BAA6DDE1C197F35009924D4 /* RFQuiltLayout.m */; };
 		0BCCBF841C19790100DCB4A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCCBF831C19790100DCB4A7 /* main.m */; };
 		0BCCBF871C19790100DCB4A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCCBF861C19790100DCB4A7 /* AppDelegate.m */; };
 		0BCCBF8A1C19790100DCB4A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCCBF891C19790100DCB4A7 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BAA6DDD1C197F35009924D4 /* RFQuiltLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFQuiltLayout.h; sourceTree = "<group>"; };
+		0BAA6DDE1C197F35009924D4 /* RFQuiltLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFQuiltLayout.m; sourceTree = "<group>"; };
 		0BCCBF7F1C19790100DCB4A7 /* RFQuiltLayout-CustomSizeOfCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RFQuiltLayout-CustomSizeOfCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCCBF831C19790100DCB4A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0BCCBF851C19790100DCB4A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		0BCCBF811C19790100DCB4A7 /* RFQuiltLayout-CustomSizeOfCell */ = {
 			isa = PBXGroup;
 			children = (
+				0BAA6DDD1C197F35009924D4 /* RFQuiltLayout.h */,
+				0BAA6DDE1C197F35009924D4 /* RFQuiltLayout.m */,
 				0BCCBF851C19790100DCB4A7 /* AppDelegate.h */,
 				0BCCBF861C19790100DCB4A7 /* AppDelegate.m */,
 				0BCCBF881C19790100DCB4A7 /* ViewController.h */,
@@ -273,6 +278,7 @@
 				0BCCBF8A1C19790100DCB4A7 /* ViewController.m in Sources */,
 				0BCCBF871C19790100DCB4A7 /* AppDelegate.m in Sources */,
 				0BCCBF841C19790100DCB4A7 /* main.m in Sources */,
+				0BAA6DDF1C197F35009924D4 /* RFQuiltLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				0BCCBFAE1C19790100DCB4A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BCCBFAF1C19790100DCB4A7 /* Build configuration list for PBXNativeTarget "RFQuiltLayout-CustomSizeOfCellTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				0BCCBFB11C19790100DCB4A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BCCBFB21C19790100DCB4A7 /* Build configuration list for PBXNativeTarget "RFQuiltLayout-CustomSizeOfCellUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				0BCCBFB41C19790100DCB4A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
